@@ -28,7 +28,13 @@ h1, h2 {
 }
 
 .intro .btnGrp {
-	margin-bottom: 20vh;
+	margin-bottom: 1rem;
+}
+
+.intro .btnGrp + p {
+	margin-bottom: 18vh;
+	font-size: .75rem;
+	opacity: .8;
 }
 
 @media only screen and (max-width: 1280px) {
