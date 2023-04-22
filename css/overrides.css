@@ -18,7 +18,7 @@ h1, h2 {
 .intro {
 	text-align: center;
     justify-content: center;
-    background: url('../design-system/images/intro/cover.png') center 70vh no-repeat;
+    background: url('../design-system/images/intro/cover.png') center 75vh no-repeat;
     background-size: 65%;
     height: 100vh;
 }
@@ -32,7 +32,7 @@ h1, h2 {
 }
 
 .intro .btnGrp + p {
-	margin-bottom: 18vh;
+	margin-bottom: 15vh;
 	font-size: .75rem;
 	opacity: .8;
 }
@@ -61,11 +61,26 @@ h1, h2 {
 	    background-size: 85%;
 
 	}
+
+	.intro {
+	    background-size: 85%;
+	    background-position-y: 75vh;
+	}
+
+	.intro .btnGrp + p {
+		margin-bottom: 18vh;
+		font-size: .75rem;
+		opacity: .8;
+	}
 }
 
 @media only screen and (max-width: 480px) {
 	.intro {
 	    background-size: 95%;
+	    background-position-y: 80vh;
+	}
 
+	.intro .btnGrp + p {
+		margin-bottom: 12vh;
 	}
 }
