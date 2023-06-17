@@ -173,6 +173,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   font-family: monospace;
   width: max-content !important;
   font-size: var(--font-size-code);
+  margin-top: .5rem;
 }
 
 @media only screen and (max-width: 1440px) {
