@@ -25,6 +25,7 @@ h1, h2 {
 
 .intro .wrapper {
 	align-items: center;
+	margin-bottom: 12vh;
 }
 
 .intro .btnGrp {

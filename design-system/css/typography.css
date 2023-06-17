@@ -150,7 +150,7 @@ q::after {
 
 p.meta {
   margin: var(--spacing-small) 0 var(--spacing-xsmall) 0 !important;
-  font-size: var(--font-size-small) !important;
+  font-size: var(--font-size-xsmall) !important;
 }
 
 .highlight {
@@ -168,11 +168,11 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 }
 
 .code {
-  padding: var(--spacing-xxsmall) var(--spacing-xsmall);
+  padding: var(--spacing-xsmall) var(--spacing-small);
   border-radius: var(--radius-soft);
   font-family: monospace;
   width: max-content !important;
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-code);
 }
 
 @media only screen and (max-width: 1440px) {
