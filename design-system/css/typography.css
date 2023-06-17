@@ -168,7 +168,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 }
 
 .code {
-  padding: var(--spacing-xsmall) var(--spacing-small);
+  padding: var(--spacing-small);
   border-radius: var(--radius-soft);
   font-family: monospace;
   width: max-content !important;
